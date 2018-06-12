@@ -19,13 +19,15 @@
  * The location attribute is automatically added to the obejct and represents
  * the URL that was used to retrieve the application JavaScript.
  */
+var baseURL;
+
 App.onLaunch = function(options) {
 
     /**
      * In this example we are passing the server BASEURL as a property
      * on the options object.
      */
-    var BASEURL = options.BASEURL;
+    baseURL = options.BASEURL;
 
     /**
      * evaluateScripts is responsible for loading the JavaScript files neccessary
