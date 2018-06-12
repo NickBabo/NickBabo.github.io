@@ -27,7 +27,8 @@ App.onLaunch = function(options) {
      * In this example we are passing the server BASEURL as a property
      * on the options object.
      */
-    baseURL = options.BASEURL;
+    // baseURL = options.BASEURL;
+    baseURL = "";
 
     /**
      * evaluateScripts is responsible for loading the JavaScript files neccessary
