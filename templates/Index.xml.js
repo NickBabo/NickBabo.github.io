@@ -27,6 +27,5 @@ var Template = function() {
   '</shelf> '+
   '</collectionList> '+
   '</stackTemplate>' +
-  '</document>'; +
-
+  '</document>';
 }
