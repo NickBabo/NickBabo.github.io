@@ -19,7 +19,7 @@ var Template = function() {
   '<img src="path to image" width="182" height="274"/> '+
   '<title>Movie 1</title>' +
   '</lockup> '+
-  '<lockup onselect="playMedia('path to video', 'video')"> '+
+  '<lockup onselect="playMedia(\'path to video\', \'video\')"> '+
   '<img src="path to image" width="182" height="274" /> '+
   '<title>Movie 2</title> '+
   '</lockup>' +
