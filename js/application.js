@@ -3,7 +3,7 @@
 /*
     Copyright (C) 2015 Apple Inc. All Rights Reserved.
     See LICENSE.txt for this sample’s licensing information
-    
+
     Abstract:
     The TVMLKit application.
 */
@@ -86,6 +86,17 @@ App.onLaunch = function(options) {
         }
     });
 };
+
+var myPlayer;
+function playMedia(extension, mediaType) {
+  var videourl = baseURL + extension;
+  var singleVideo = new MediaItem(mediaType, videourl);
+  var videoList = new Playlist();
+  videoList.push(singleVideo);
+  myPlayer = new Player();
+  myPlayer.playlist = videoList;
+  myPlayer.play();
+}
 
 /**
  * @description
