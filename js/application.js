@@ -39,7 +39,8 @@ App.onLaunch = function(options) {
      * @param - Function called when the scripts have been evaluated. A boolean is
      * passed that indicates if the scripts were evaluated successfully.
      */
-    var scripts = [`${BASEURL}/templates/Index.xml.js`];
+    // var scripts = [`${BASEURL}/templates/Index.xml.js`];
+    var scripts = [`${BASEURL}/antigo.tvml`];
     evaluateScripts(scripts, function(success) {
         if (success) {
 
